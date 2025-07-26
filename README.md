@@ -2,43 +2,43 @@
 This project is a lightweight, interactive scheduler web application designed to help users plan and manage their tasks efficiently.
 
 scheduler-system/
-├── app/                   # Core logic modules (AI, API handlers, etc.)
-│   ├── scheduler/        # Scheduling logic, rules, constraints
-│   ├── ai/               # Python-based AI engine and prediction models
-│   └── api/              # PHP-based APIs to handle requests and DB access
+├── app/
+│   ├── scheduler/
+│   ├── ai/
+│   └── api/
 │
-├── client/               # React application and UI components
-│   ├── components/       # Reusable UI parts (Calendar, TaskCard, Modals)
-│   ├── pages/            # Main views/screens
-│   ├── assets/           # Images, logos, icons
-│   └── utils/            # Helper functions, constants
+├── client/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/ 
+│   └── utils/
 │
-├── config/               # Environment settings, CORS config, API routes
-│   ├── database.php      # DB connection setup
-│   ├── routes.php        # Endpoint mappings
-│   └── ai_config.py      # Python AI settings
+├── config/
+│   ├── database.php
+│   ├── routes.php
+│   └── ai_config.py
 │
-├── scripts/              # CLI tools, data seeding, maintenance scripts
+├── scripts/
 │   ├── seed_tasks.php
 │   └── train_model.py
 │
-├── public/               # Static files (index.html, manifest, favicon)
+├── public/
 │   └── favicon.ico
 │
-├── tests/                # Unit and integration tests
+├── tests/s
 │   ├── php/
 │   ├── js/
 │   └── py/
 │
-├── logs/                 # Server logs, AI inference logs
-├── models/               # Trained AI models and saved data files
+├── logs/
+├── models/
 │   └── task_predictor.pkl
 │
-├── package.json          # React dependencies
-├── composer.json         # PHP dependencies
-├── requirements.txt      # Python dependencies
-├── .env                  # Environment variables
-├── README.md             # Project documentation
-└── docker-compose.yml    # (Optional) Dev containerization setup
+├── package.json
+├── composer.json
+├── requirements.txt
+├── .env
+├── README.md
+└── docker-compose.yml
 
 
